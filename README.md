@@ -6,7 +6,7 @@ This is the simplest way of programming player using ffmpeg libraries without ad
 It uses only ffmpeg libraries for decoding video (without audio) and OpenGL for rendering.
 
 ## Building
-By default all builds are statically linked and debug.
+By default all builds are debug. For windows build is statically linked with ffmpeg libraries.
 
 ### Windows
 To build on Windows you need a C compiler. So you can install it with Visual Studio and after installation just run/click **build.bat**. All needed ffmpeg **.lib* files, headers files are included. You can find binary in *windows/bin* folder after compilation finished.
