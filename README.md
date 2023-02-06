@@ -3,7 +3,7 @@ A simple ffmpeg player for Windows and Linux.
 
 ## Description
 This is the simplest way of programming player using ffmpeg libraries without additional dependencies. No SDL, no multithreading, no Boost and other stuff.
-It uses only ffmpeg libraries for decoding and OpenGL for rendering.
+It uses only ffmpeg libraries for decoding video (without audio) and OpenGL for rendering.
 
 ## Building
 By default all builds are statically linked and debug.
